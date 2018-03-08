@@ -1,10 +1,11 @@
 {
   "name": "jesse-cacert_fingerprint",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "author": "Jesse Reynolds",
-  "summary": "",
+  "summary": "This module adds facts which report the SHA256 fingerprint of the Puppet CA Certificate present on the agent.",
   "license": "Apache-2.0",
-  "source": "",
+  "source": "https://github.com/jessereynolds/puppet-cacert_fingerprint",
+  "issues_url": "https://github.com/jessereynolds/puppet-cacert_fingerprint/issues",
   "dependencies": [
 
   ],

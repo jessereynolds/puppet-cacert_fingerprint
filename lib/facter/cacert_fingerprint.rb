@@ -5,7 +5,7 @@ Facter.add('cacert_fingerprint') do
     cacert_path = Puppet.settings['cacert']
     file_data = File.read(cacert_path)
     cert = OpenSSL::X509::Certificate.new(file_data)
-    OpenSSL::Digest::SHA1.new(cert.to_der).to_s
+    OpenSSL::Digest::SHA256.new(cert.to_der).to_s
   end
 end
 
@@ -14,6 +14,6 @@ Facter.add('cacert_fingerprint_colonated') do
     cacert_path = Puppet.settings['cacert']
     file_data = File.read(cacert_path)
     cert = OpenSSL::X509::Certificate.new(file_data)
-    OpenSSL::Digest::SHA1.new(cert.to_der).to_s.scan(%r{..}).map { |s| s.upcase }.join(':')
+    OpenSSL::Digest::SHA256.new(cert.to_der).to_s.scan(%r{..}).map { |s| s.upcase }.join(':')
   end
 end
