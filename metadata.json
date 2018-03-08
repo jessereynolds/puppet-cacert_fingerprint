@@ -1,6 +1,6 @@
 {
   "name": "jesse-cacert_fingerprint",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "author": "Jesse Reynolds",
   "summary": "This module adds facts which report the SHA256 fingerprint of the Puppet CA Certificate present on the agent.",
   "license": "Apache-2.0",
@@ -61,7 +61,7 @@
       "version_requirement": ">= 4.7.0 < 6.0.0"
     }
   ],
-  "pdk-version": "1.3.1",
+  "pdk-version": "1.4.1",
   "template-url": "file:///opt/puppetlabs/pdk/share/cache/pdk-templates.git",
-  "template-ref": "1.3.0-0-g632fa63"
+  "template-ref": "1.4.1-0-g52adbbb"
 }
