@@ -1,6 +1,6 @@
 {
   "name": "jesse-cacert_fingerprint",
-  "version": "0.5.0",
+  "version": "1.0.0",
   "author": "Jesse Reynolds",
   "summary": "This module adds facts which report the SHA256 fingerprint of the Puppet CA Certificate present on the agent.",
   "license": "Apache-2.0",
@@ -8,61 +8,49 @@
   "project_page": "https://github.com/jessereynolds/puppet-cacert_fingerprint",
   "issues_url": "https://github.com/jessereynolds/puppet-cacert_fingerprint/issues",
   "dependencies": [
-
   ],
   "operatingsystem_support": [
     {
-      "operatingsystem": "CentOS",
-      "operatingsystemrelease": [
-        "7"
-      ]
+      "operatingsystem": "CentOS"
     },
     {
-      "operatingsystem": "OracleLinux",
-      "operatingsystemrelease": [
-        "7"
-      ]
+      "operatingsystem": "OracleLinux"
     },
     {
-      "operatingsystem": "RedHat",
-      "operatingsystemrelease": [
-        "7"
-      ]
+      "operatingsystem": "RedHat"
     },
     {
-      "operatingsystem": "Scientific",
-      "operatingsystemrelease": [
-        "7"
-      ]
+      "operatingsystem": "Scientific"
     },
     {
-      "operatingsystem": "Debian",
-      "operatingsystemrelease": [
-        "8"
-      ]
+      "operatingsystem": "Debian"
     },
     {
-      "operatingsystem": "Ubuntu",
-      "operatingsystemrelease": [
-        "16.04"
-      ]
+      "operatingsystem": "Ubuntu"
     },
     {
-      "operatingsystem": "windows",
-      "operatingsystemrelease": [
-        "2008 R2",
-        "2012 R2",
-        "10"
-      ]
+      "operatingsystem": "windows"
+    },
+    {
+      "operatingsystem": "Fedora"
+    },
+    {
+      "operatingsystem": "Darwin"
+    },
+    {
+      "operatingsystem": "SLES"
+    },
+    {
+      "operatingsystem": "Solaris"
     }
   ],
   "requirements": [
     {
       "name": "puppet",
-      "version_requirement": ">= 4.7.0 < 6.0.0"
+      "version_requirement": ">= 7.0 < 9.0.0"
     }
   ],
-  "pdk-version": "1.4.1",
-  "template-url": "file:///opt/puppetlabs/pdk/share/cache/pdk-templates.git",
-  "template-ref": "1.4.1-0-g52adbbb"
+  "pdk-version": "3.4.0",
+  "template-url": "pdk-default#3.4.0",
+  "template-ref": "tags/3.4.0-0-gd3cc13f"
 }
